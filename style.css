@@ -26,3 +26,44 @@ html{
   transform: translate(-50%,-50%);
   z-index:1;
 }
+
+.container{
+background-color: yellow;
+color: white;
+margin: 0 ;
+padding: 0;
+
+}
+
+
+.container ul{
+  margin: 20px;
+  padding: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items:baseline;
+
+}
+
+.container li{
+ margin: 10px 10px;
+  
+}
+.container a{
+
+  color: black;
+  text-decoration: none;
+  
+
+
+}
+#nav-container{
+  top: 10px;
+
+}
+.container-items{
+  padding: 30px;
+  border-left: 2px solid black;
+  margin-left: 20px;
+}
