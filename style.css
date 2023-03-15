@@ -87,3 +87,44 @@ a{
   padding: 20px;;
 
 }
+.section1{
+  background-color: gray;
+  padding: 200px;
+ margin-top: -10px;
+ color: white;
+
+}
+section h2{
+  font-weight: bold;
+  font-size: 40px;
+
+}
+.section2{
+  display: flex;
+  padding: 10px;
+  background-color: yellow;
+}
+section h2{
+  text-align: center;
+}
+.outer-box{
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
+.middle-box{
+
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  padding: 20px;
+  color: white;
+  justify-content: space-between;
+display: flex;
+margin: 10px;
+it
+}
+
+
