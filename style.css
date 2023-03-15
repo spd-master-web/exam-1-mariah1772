@@ -30,7 +30,7 @@ html{
 .container{
 background-color: yellow;
 color: white;
-margin: 0 ;
+margin: 0 auto;
 padding: 0;
 
 }
@@ -43,6 +43,8 @@ padding: 0;
   display: flex;
   justify-content: space-between;
   align-items:baseline;
+  min-width: 100vh;
+  align-items: center;
 
 }
 
@@ -62,8 +64,26 @@ padding: 0;
   top: 10px;
 
 }
-.container-items{
+/* .container-items{
   padding: 30px;
   border-left: 2px solid black;
-  margin-left: 20px;
+  margin-left: 50px;
+  left: 50px;
+  right: 50px;
+  
+} */
+header p{
+  font-weight: 25px;
+  font-size: 25px;
+  padding: 80px;
+  text-align: center;
+}
+a{
+  border-radius: 20px;
+  position: relative;
+  border:2px solid black;
+  align-items: center;
+  font-size: 30px;
+  padding: 20px;;
+
 }
