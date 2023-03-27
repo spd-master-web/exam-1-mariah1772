@@ -113,8 +113,23 @@ section h2{
   text-align: center;
 }
 
-.outer-box{
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.box {
   width: 400px;
+  height: 400px;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+
+}
+
+.outer-box{
+  /* width: 400px;
   height: 400px;
   background-color: black;
   padding: 20px;
@@ -122,39 +137,35 @@ section h2{
   display: flex;
   margin-left: 54px;
   margin-top: 11px;
-  padding-top: 140px;
+  padding-top: 140px; */
 }
-.middle-box{
 
-width: 400px;
-height: 400px;
-background-color: black;
-padding: 20px;
-color: white;
-justify-content: space-between;
-display: flex;
-
-margin-left: 504px;
-margin-top: -399px;
-
-padding-top: 140px;
+.middle-box {
+  /* width: 400px;
+  height: 400px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  justify-content: space-between;
+  display: flex; */
 
 }
+
 .middle-box h2{
-text-align: justify;
+  text-align: justify;
 }
 .last-box{
-width:400px ;
-height: 400px;
-background-color: black;
-margin: 0 auto;
-padding: 20px;
-color: white;
-display: flex;
-margin-left: 955px;
-margin-top: -400px;
-text-transform: uppercase;
-padding-top: 140px;
+  /* width:400px ;
+  height: 400px;
+  background-color: black;
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+  display: flex;
+  margin-left: 955px;
+  margin-top: -400px;
+  text-transform: uppercase;
+  padding-top: 140px; */
 
 }
  .last-box h2{
